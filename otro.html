@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Hello PhoneGap</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta charset="utf-8">
+
+
+        <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+        <script type="text/javascript">
+
+        function onBodyLoad()
+        {       
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        function onDeviceReady()
+        {
+            // do your thing!
+            navigator.notification.alert("PhoneGap is working")
+        }
+
+        </script>
+    </head>
+    <body onload="onBodyLoad()">
+    <h1>Hey, it's PhoneGap!</h1>
+    
+    <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.pe/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=Santa+Anita,+Lima,+Per%C3%BA&amp;aq=0&amp;oq=Santa+Anita+lima+peru&amp;sll=-9.243538,-75.019515&amp;sspn=37.336352,67.631836&amp;ie=UTF8&amp;hq=&amp;hnear=Santa+Anita,+Provincia+de+Lima&amp;t=m&amp;ll=-12.04293,-76.958542&amp;spn=0.025183,0.025749&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.pe/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=Santa+Anita,+Lima,+Per%C3%BA&amp;aq=0&amp;oq=Santa+Anita+lima+peru&amp;sll=-9.243538,-75.019515&amp;sspn=37.336352,67.631836&amp;ie=UTF8&amp;hq=&amp;hnear=Santa+Anita,+Provincia+de+Lima&amp;t=m&amp;ll=-12.04293,-76.958542&amp;spn=0.025183,0.025749&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small>
+    
+    </body>
+</html>
+
